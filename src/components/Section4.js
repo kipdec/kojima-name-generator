@@ -1,5 +1,5 @@
 import React from 'react';
-import {Roll} from './utilities';
+import {Roll} from '../utilities';
 
 class Section4 extends React.Component {
     constructor(props){
