@@ -1,9 +1,9 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
+}
+
+h1, h3{
+  text-align: center;
 }
 
 .App-header {
