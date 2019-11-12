@@ -30,14 +30,14 @@ class Section1 extends React.Component{
         
         
         return(
-            <div>
-                <h1>Section 1: Determining How Many Names You Have</h1>
-                <h3>
+            <div className="section">
+                <h2>Section 1: Determining How Many Names You Have</h2>
+                <h4>
                     <i>
                     Kojima often creates characters that have many alternate names,
                     so we must first figure out how many names you will have.
                     </i>
-                </h3>
+                </h4>
                 {YouRolled}
                 <button onClick={this.rollNames}>Roll</button>
                 {NumOfNames}
