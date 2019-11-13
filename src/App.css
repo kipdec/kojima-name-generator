@@ -2,11 +2,11 @@ body{
   background-color: #010101;
 }
 
-.App{
+/* .App{
   background-image: url('./images/codec.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .header {
   width: 100%;
@@ -17,6 +17,10 @@ body{
   justify-content: center;
   color: white;
   background-color: #010101;
+}
+
+.header img{
+  height: auto;
 }
 
 .section{
