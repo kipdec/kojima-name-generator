@@ -44,73 +44,73 @@ class Section2 extends React.Component{
 
     render(){
         return(
-            <div>
-                <h1>Section 2: Personal Information</h1>
-                <h3><i>
+            <div className="section">
+                <h2>Section 2: Personal Information</h2>
+                <h4><i>
                     Kojima's characters have names that are directly related to their own character traits.
                     This information will make sure your name fits your personality.
-                    </i></h3>
+                    </i></h4>
                 <form onSubmit={this.submitProfile}>
                     <ol>
                         <li>
-                            What is your full name?
+                            <p>What is your full name?</p>
                             <input name="fullName" type="text" value={this.state.fullName.value} onChange={this.handleInputChange} />
                         </li>
                         <li>
-                            What do you do at your occupation? (A single noun. E.g. 'Farmer')
+                            <p>What do you do at your occupation? (A single noun. E.g. 'Farmer')</p>
                             <input name="occupation" value={this.state.occupation.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                            What was your first pet's specific species/breed? If you never had a pet, please answer with an animal you wish you owned.
+                            <p>What was your first pet's specific species/breed? If you never had a pet, please answer with an animal you wish you owned.</p>
                             <input name="breed" value={this.state.breed.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                            What's your most embarrassing childhood memory? (Two words)
+                            <p>What's your most embarrassing childhood memory? (Two words)</p>
                             <input name="story" value={this.state.story.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                            What is the object you'd least like to be stabbed by?
+                            <p>What is the object you'd least like to be stabbed by?</p>
                             <input name="object" value={this.state.object.value} onChange={this.handleInputChange} type="text"/>
                         </li>
                         <li>
-                            What is something you are good at? (Verb ending in -ing)
+                            <p>What is something you are good at? (Verb ending in -ing)</p>
                             <input name="skill" value={this.state.object.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                            How many carrots do you believe you could eat in one sitting, if someone,
-                            like, forced you to eat as many carrots as possible?
+                            <p>How many carrots do you believe you could eat in one sitting, if someone,
+                            like, forced you to eat as many carrots as possible?</p>
                             <input name="number" value={this.state.object.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                             What is your greatest intangible fear? (e.g. death, loneliness, fear itself)
+                             <p>What is your greatest intangible fear? (e.g. death, loneliness, fear itself)</p>
                              <input name="fear" value={this.state.fear.value} onChange={this.handleInputChange} type="text"/>
                         </li>
                         <li>
-                            What is your greatest tangible fear? (e.g. horses)
+                            <p>What is your greatest tangible fear? (e.g. horses)</p>
                             <input name="realFear" value={this.state.realFear.value} onChange={this.handleInputChange} type="text"/>
                         </li>
                         <li>
-                            What is the last thing you did before starting this worksheet?
+                            <p>What is the last thing you did before starting this worksheet?</p>
                             <input name="activity" value={this.state.activity.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                            What condition is your body currently in? (single word answer)
+                            <p>What condition is your body currently in? (single word answer)</p>
                             <input name="condition" value={this.state.condition.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                            Favorite state of matter?
+                            <p>Favorite state of matter?</p>
                             <input name="som" value={this.state.som.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                            A word your name kind of sounds like? (e.g. Brian -> Brain)
+                            <p>A word your name kind of sounds like? (e.g. Brian -> Brain)</p>
                             <input name="name" value={this.state.name.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                            What is your Zodiac sign?
+                            <p>What is your Zodiac sign?</p>
                             <input name="zodiac" value={this.state.zodiac.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                            If you had to define your personality in one word, what would it be?
+                            <p>If you had to define your personality in one word, what would it be?</p>
                             <input name="persona" value={this.state.persona.value} onChange={this.handleInputChange} type="text" />
                         </li>
                     </ol>
