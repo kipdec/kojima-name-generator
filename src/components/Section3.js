@@ -62,7 +62,7 @@ class Section3 extends React.Component {
                             <input name="military" value={this.state.military.value} onChange={this.handleInputChange} type="text" />
                         </li>
                         <li>
-                            <p>What is a piece of military hardware you think looks cool even though war is bad?</p>
+                            <p>What is something you could watch Mads Mikkelson do all day? (one word)</p>
                             <input name="mads" value={this.state.mads.value} onChange={this.handleInputChange} type="text" />
                         </li>
                     </ol>
