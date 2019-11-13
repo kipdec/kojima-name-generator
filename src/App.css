@@ -2,7 +2,13 @@ body{
   background-color: #010101;
 }
 
-.hero-text {
+.App{
+  background-image: url('./images/codec.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
   width: 100%;
   height: auto;
   display: flex;
@@ -10,13 +16,7 @@ body{
   align-items: center;
   justify-content: center;
   color: white;
-}
-
-.hero-img{
   background-color: #010101;
-  width: 100%;
-  margin: auto;
-  height: 100vh;
 }
 
 .section{
