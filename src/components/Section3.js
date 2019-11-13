@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 class Section3 extends React.Component {
     constructor(props){
@@ -65,7 +66,7 @@ class Section3 extends React.Component {
                             <input name="mads" value={this.state.mads.value} onChange={this.handleInputChange} type="text" />
                         </li>
                     </ol>
-                    <input type="submit" value="Submit" />
+                    <Link to="/section/4">Continue</Link>
                 </form>
             </div>
         )

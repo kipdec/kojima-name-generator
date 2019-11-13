@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 class Section2 extends React.Component{
     constructor(props){
@@ -115,7 +116,7 @@ class Section2 extends React.Component{
                         </li>
                     </ol>
                     
-                    <input type="submit" value="submit"/>
+                    <Link to="/section/3">Continue</Link>
                 </form>
             </div>
             

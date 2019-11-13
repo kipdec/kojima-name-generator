@@ -1,5 +1,6 @@
 import React from 'react';
 import {roll} from '../utilities';
+import {Link} from 'react-router-dom';
 
 class Section1 extends React.Component{
     constructor(props){
@@ -20,12 +21,14 @@ class Section1 extends React.Component{
         const altNames = this.state.altNames;
         var YouRolled = (<p>You have not yet rolled</p>);
         var NumOfNames = (<p>We can't know until you roll...</p>);
+        var Next;
         if(lastRoll != null){
             YouRolled = (<p>You rolled: {lastRoll}</p>);
             NumOfNames = (<p>You have 1 name.</p>);
             if(altNames){
                 NumOfNames = (<p>You have 1 name + 6 other alternate names.</p>);
             }
+            Next = (<Link to="/section/2">Continue</Link>);
         }
         
         
@@ -41,6 +44,7 @@ class Section1 extends React.Component{
                 {YouRolled}
                 <button onClick={this.rollNames}>Roll</button>
                 {NumOfNames}
+                {Next}
             </div>
         )
     }
