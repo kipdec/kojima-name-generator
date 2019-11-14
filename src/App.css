@@ -63,7 +63,8 @@ img{
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  border: 1px solid mediumspringgreen;
+  padding: 1rem;
+  /* border: 1px solid mediumspringgreen; */
   align-items: center;
 }
 

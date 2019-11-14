@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {BrowserRouster as Router, Route, Link} from 'react-router-dom';
 
 class Section2 extends React.Component{
     constructor(props){
