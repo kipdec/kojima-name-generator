@@ -13,10 +13,6 @@ function App() {
     <Router >
       <div className="App">
         <img src={codec} alt={'Metal Gear Solid Codec'} />
-        {/* <Landing />
-        <Section1 />
-        <Section2 />
-        <Section3 /> */}
         <Route exact path='/' component={Landing} />
         <Route path='/section/1' component={Section1}/>
         <Route path='/section/2' component={Section2}/>

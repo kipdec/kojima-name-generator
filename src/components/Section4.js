@@ -66,7 +66,7 @@ class Section4 extends React.Component {
 
     KojimaCheck(){
         this.setState({hasKojima: false});
-        if(roll(100) == 69) this.setState({hasKojima: true});
+        if(roll(100) === 69) this.setState({hasKojima: true});
     }
 
     render(){
